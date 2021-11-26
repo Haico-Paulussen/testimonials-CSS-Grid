@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front-End Mentor](https://your-solution-url.com)
+- Live Site URL: [GitHub Pages](https://haico-paulussen.github.io/testimonials-CSS-Grid/)
 
 ## My process
 
@@ -42,27 +42,29 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This time I tried to put my newly learned CSS Grid skills to the test with this challenge. And I'm pleased to say it went really well. I've fallen in love with CSS Grid, it made my life so much easier. Looking back to previous challenges and even futher to my old work, CSS Grid would've been so much better. But life is about learning and I'm glad I learned this.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.profile {
+    grid-area: 1 / 1 / 2 / 3;
+    display: grid;
+    grid: min-content min-content / min-content auto;
+    grid-gap: 0 1rem;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
+body main {
+        padding: 0;
+        width: 78vw;
+        max-width: 1440px;
+        grid-template:
+            "card1 card1 card2 card5" 1fr 
+            "card3 card4 card4 card5" 1fr /1fr 1fr 1fr 1fr;
+    }
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+So right now I learned basic HTML, CSS, Flexbox and CSS Grid. Next step for me is to start learning basic JavaScript so I can work on my long term goal: Learn VUE.js (and/or other frameworks).
 
 ## Author
 
