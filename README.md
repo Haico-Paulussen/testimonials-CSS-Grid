@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Front-End Mentor](https://your-solution-url.com)
+- Solution URL: [Front-End Mentor](https://www.frontendmentor.io/solutions/mobile-first-css-grid-KNA27N78q)
 - Live Site URL: [GitHub Pages](https://haico-paulussen.github.io/testimonials-CSS-Grid/)
 
 ## My process
